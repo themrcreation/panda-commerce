@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    margin-bottom: 50px;
+}
+.bg {
+    background: #fceae8; 
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.buy-now-btn {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, rgb(115, 48, 59) ,rgb(204, 41, 68));
+}
+
+
+
+
+.cat1, .cat2, .cat3 {
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.cat1{
+    background: linear-gradient(to left , orange , rgb(239, 160, 12));
+}
+.cat2 {
+    background: linear-gradient(to left , rgb(65, 14, 205) , rgb(25, 5, 243));
+}
+.cat3 {
+    background: linear-gradient(to left , rgb(0, 200, 255) , rgb(4, 116, 177));
+}
+
+
+
+
+
+
+.card-footer {
+    background: #fff;
+    border-top: none;
+}
+
+.card-footer button:hover {
+    cursor: pointer;
+}
+
+.card p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.card h5 {
+    font-weight: 600;
+    font-size: 25px;
+}
